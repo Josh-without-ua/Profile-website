@@ -46,7 +46,6 @@ margin-left: 35%;
 grid-template-areas: "Pepeha NZ Culture Flag";
     display: grid;
     background: linear-gradient(to right, #00008B,#00007B, #FD1C03,#FDBD01);
-font-size: 55px;
 }
 #pepeha{
     grid-area: Pepeha;
@@ -75,5 +74,5 @@ height: 40%;
 .Foot{
 text-align: center;
 color: RGB(0 199 214);
-font-size: 30px
+font-size: 30px;
 }
