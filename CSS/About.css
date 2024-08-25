@@ -1,0 +1,66 @@
+body{
+background-image: url(Coolbackground.jpg);
+background-repeat: repeat;
+background-size: 100%;
+}
+#GridHead{
+display: inline-grid;
+grid-template-areas:"Image Text";
+grid-gap: 40px;
+}
+#Manga{
+    grid-area: Text;
+    border-radius: 50%;
+}
+#About{
+    grid-area: Image;
+   font-size: 130px;
+    color: RGB(132 88 238);
+    text-align: center;
+ ;
+}
+#AboutHeading{
+text-align: center;
+}
+#Nav{
+    display: grid;
+    grid-template-areas: "Home About Culture Contact";
+    background-color: white;
+    text-align: center;
+}
+#Home{
+    grid-area: Home;
+    font-size: 40px;
+}
+#Aboutnav{
+    grid-area: About;
+    font-size: 40px;
+    background: linear-gradient(aqua, #9198e5);
+}
+#Culture{
+    grid-area: Culture;
+    font-size: 40px;
+}
+#Contact{
+    grid-area: Contact;
+    font-size: 40px;
+}
+#Aboutgrid{
+    grid-template-areas: "Hobbies About";
+     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    display: grid;
+    font-size: 64px;
+}
+#Hobbies{
+grid-area: Hobbies;
+    height: 40%;
+    width: 35%;
+}
+#Aboutme{
+    grid-area: About;
+}
+.Foot{
+text-align: center;
+color: RGB(0 199 214);
+font-size: 30px
+}

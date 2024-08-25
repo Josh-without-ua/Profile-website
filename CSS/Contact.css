@@ -1,0 +1,92 @@
+body{
+background-image: url(Coolbackground.jpg);
+background-repeat: repeat;
+background-size: 100%;
+}
+#Heading{
+display: inline-grid;
+grid-template-areas:"Text Image Image1";
+grid-gap: 100px;
+margin-left: 20%;
+}
+#Feelfree{
+color: RGB(132 88 238);
+grid-area: Text;
+font-size: 64px;
+margin-top: 25%;
+margin-bottom: auto;
+}
+#Title{
+    grid-area: Image;
+    font-size: 70px;
+    color: RGB(132 88 238);
+    text-align: center;
+}
+#Nav{
+    display: grid;
+    grid-template-areas: "Home About Culture Contact";
+    background-color: white;
+    text-align: center;
+}
+#Home{
+    grid-area: Home;
+    font-size: 40px;
+}
+#Aboutnav{
+    grid-area: About;
+    font-size: 40px;  
+}
+#CultureNav{
+    grid-area: Culture;
+    font-size: 40px;
+  
+}
+#Contact{
+    grid-area: Contact;
+    font-size: 40px;
+      background: linear-gradient(aqua, #9198e5);
+}
+#Contacts{
+    display: grid;
+    grid-template-areas: "Image Methods Methods Methods Methods Methods";
+    height: 60%;
+}
+#Image{
+    grid-area: Image;   
+}
+#Methods{
+    grid-area: Methods;
+    color: RGB(132 88 238);
+}
+#Goku{
+    height:100%;
+}
+#BDSC{
+    height: 14%;
+    width: 190px;
+}
+#Gmail{
+    height: 14%;
+    width: 190px;
+}
+#Discord{
+    height: 14%;
+    width: 190px;
+}
+.Words{
+    text-align: center;
+    font-size: 50px;
+    }
+.Foot{
+text-align: center;
+color: RGB(0 199 214);
+font-size: 30px;
+}
+#MoreGoku{
+    grid-area: Image1;
+    font-size: 70px;
+}
+#Gokus{
+    height: 100%;
+}
+ 

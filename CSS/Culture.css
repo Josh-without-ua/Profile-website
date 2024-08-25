@@ -1,0 +1,79 @@
+body{
+background-image: url(Coolbackground.jpg);
+background-repeat:repeat;
+background-size: 100%;
+}
+#Heading{
+display: inline-grid;
+grid-template-areas:"Text Image";
+grid-gap: 40px;
+margin-left: 35%;
+}
+#Culture{
+    grid-area: Text;
+    font-size: 70px;
+    color: RGB(132 88 238);
+}
+#ImageC{
+    grid-area: Image;
+    border-radius: 50%;
+}
+#Nav{
+    display: grid;
+    grid-template-areas: "Home About Culture Contact";
+    background-color: white;
+    text-align: center;
+}
+#Home{
+    grid-area: Home;
+    font-size: 40px;
+}
+#Aboutnav{
+    grid-area: About;
+    font-size: 40px;
+    
+}
+#CultureNav{
+    grid-area: Culture;
+    font-size: 40px;
+    background: linear-gradient(aqua, #9198e5);
+}
+#Contact{
+    grid-area: Contact;
+    font-size: 40px;
+}
+#Wordsgrid{
+grid-template-areas: "Pepeha NZ Culture Flag";
+    display: grid;
+    background: linear-gradient(to right, #00008B,#00007B, #FD1C03,#FDBD01);
+font-size: 55px;
+}
+#pepeha{
+    grid-area: Pepeha;
+     background: linear-gradient(#71706E, #FFFFFF, #A5A4A2, #C0BFBD, #F8F7F5 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#NZflag{
+grid-area: NZ;
+}
+#China{
+grid-area: Culture;
+}
+#Flag{
+    grid-area: Flag;
+}
+#NZ{
+text-align: end;
+height: 40%;
+}
+#Words{
+    background: linear-gradient(to right,#E2000B,#FFFFFF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.Foot{
+text-align: center;
+color: RGB(0 199 214);
+font-size: 30px
+}
